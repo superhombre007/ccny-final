@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+}
+#header{
+	position:relative;
+	top: -5px;
+	width: 520px;
+	margin:0 auto;
+	text-align: center;
+	color: white;
+	z-index:200;
+}
+a{
+	font-size: 1.2rem;
+	
+}
+#navbar{
+    position: sticky;
+    padding: 10px;
+    margin: 0 30px;
+}
+.nav-item{
+	display: flex;
+justify-content: space-between;
+padding: 0px;
+    margin: 0 10px;
+}
+#carousel {
+position: relative;
+margin: 0 30px;
+  padding: 5px;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.carousel-inner{
+	width: auto;
+  max-height: 600px !important;
+}
+article{
+	margin: 30px;
+	text-align: center;
+}
+article h1{
+	font-size: 3.5rem ;
+	color :000;
+line-height: normal;
+}
+.bodyh1{
+margin-top: 50px;
+text-align: center;
+color: #808080;
+background-color: #fcfcfc;
+}
+.follow{
+width:auto;
+	background-color:#f0f0f0;
+	border-radius: 5px;
+	padding: 20px;
+	margin-top: 20px;
+	margin:30px;
+	text-align: center;
+}
+.box {
+  display: flex;
+  justify-content: space-between;}
+  
+  .ig {
+	background: linear-gradient(to right, #ee2a7b, #f9ed32);
+  height:280px;
+   width:280px;
+   margin: auto;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   text-align: center;
+   color: white;
+}
+.fb {
+	background: linear-gradient(to right, #2f55a4, #4ca2cd);
+  height:280px;
+   width:280px;
+   margin: auto;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   text-align: center;
+   color: white;
+}
+.yt {
+	background: linear-gradient(to left , #d71e18, #ed9c8f);
+  height:280px;
+   width:280px;
+   margin: auto;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   text-align: center;
+   color: white;
+}
+
+.footer{
+width:auto;
+	background-color:#f0f0f0;
+	border-radius: 5px;
+	padding: 10px;
+	margin-top: 20px;
+	margin:30px;
+	text-align: center;
+}
+.note{
+	text-align: center;
+	color: #808080;
+}
+
